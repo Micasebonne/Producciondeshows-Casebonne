@@ -1,0 +1,74 @@
+//variables
+
+$titulo: 'Playfair Display SC', serif;
+$texto: 'Gilda Display', serif;
+
+$color-principal: #ffb606;
+$color-enlaces: #ffe002;
+$color-fondo-header: rgb(31, 29, 29);
+$estilo-enlaces-activos: 3px solid #ffb606;
+
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@mixin boton {
+    background-color: $color-enlaces;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: $color-principal;
+    margin-bottom: 50px; 
+        a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        &:hover {
+        text-decoration: underline;
+        }
+    }
+}
+
+@mixin container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: $titulo;
+    color: $color-principal;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    color: $color-principal;
+    font-family: $texto;
+    background-color: black;
+}
+
+a {
+    color: $color-enlaces;
+
+    &:hover {
+       color: $color-enlaces;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}

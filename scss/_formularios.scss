@@ -1,0 +1,54 @@
+.titulo-contacto {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.subtitulo-contacto {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.segunda-seccion__centrado {
+    @include centrado;
+}
+
+form {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    border-style: dotted;
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 60px;
+        label {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+            legend {
+            color: white;
+            background-color: black;
+            padding: 10px;
+            border: gold;
+            border-radius: 20px;
+            border-style: dotted;
+            }
+                fieldset {
+                background-color: #B28228;
+                border-color: #ffe002;
+                border-radius: 20px;
+                padding: 20px;
+                }
+                    input {
+                    margin: 10px;
+                    }
+                        textarea {
+                        width: 60%;
+                        border-radius: 10px;
+                        }
+}        

@@ -1,0 +1,93 @@
+.logo {
+    display: flex;
+    width: 8vw;
+    border-radius: 50%;
+}
+
+.nav-link:hover {
+    border-bottom: $estilo-enlaces-activos;
+    background-color: black;
+}   
+
+.active {
+    border-bottom: $estilo-enlaces-activos;
+    background-color: black;
+}
+
+.header-sitio {
+    background-color: $color-fondo-header;
+    padding: 16px;
+
+        h1 {
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+        .menu-abrir, .menu-cerrar {
+        display: none;
+        }
+
+        @media (max-width: 990px) {
+        flex-direction: row;
+        justify-content: space-around;
+
+        h1 {
+            flex-basis: 70%;
+            margin-bottom: 0;
+        }
+
+        .menu-abrir, .menu-cerrar {
+            display: block;
+        }
+
+        nav {
+            position: absolute;
+            top: -400%;
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: $color-fondo-header;
+            padding-top: 14px 0;
+            transition: 1.5s cubic-bezier(0.41, -0.63, 0.38, 1.58);
+            a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $color-enlaces;
+            text-align: center;
+        }
+            &:target {
+                padding: 50%;
+                font-size: 1rem;
+                padding-bottom: 10%;
+                margin-right: auto;
+                margin-left: auto;
+                z-index: 2;
+                width: max-content;
+            }
+        }
+    }
+    
+        nav {
+        flex-basis: 80%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+        a {
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-left: 10px;
+            padding: 5px 10px;
+            text-align: center;
+            color: $color-enlaces;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="keywords" content="contratacion, contacto, presupuesto, shows, entretenimiento, eventos, cumpleaños, fiestas,
+    animaciones"> 
+    <title>Contacto y contratación de shows para eventos</title>
+    <meta name="description" content="Die Stern es un productora dedicada a la realización de shows para animar todo tipo de eventos">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ad48722f8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" re="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!--  Inicio encabezado  -->
+    <header class="header-sitio">
+      <div class="container header-container">
+        <a href="../index.html"><img class="logo" src="../Images/logo.jpg" alt="logo"></a>
+        <a href="../index.html"><h1>Die Stern Producciones</h1></a>
+        <a href="#nav" class="menu-abrir"><i class="fas fa-bars"></i></a>
+        <nav id="nav">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../Pages/nosotros.html">Nosotros</a>
+            <a class="nav-link" href="../Pages/shows.html">Shows</a>
+            <a class= "nav-link active" href="../Pages/contactoypresupuesto.html">Contacto y presupuesto</a>
+            <a class= "nav-link" href="../Pages/quieroserparte.html">Quiero ser parte</a>
+            <a href="#" class="menu-cerrar"><i class="fas fa-times"></i></a>
+        </nav>
+      </div>
+  </header>
+
+    <section>
+    <!--  Inicio contenido principal  -->    
+        <h1 class="titulo-contacto">¿Estás pensando en contratar un show?</h1>
+        <h2 class="subtitulo-contacto">Dejanos tus datos y a la brevedad vamos a estar comunicándonos con vos</h2>
+
+        <div class="fondo-formulario" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-sine"> 
+        <form id="formulario-clientes" action="">
+            <fieldset>
+                <legend>Formulario para clientes</legend>
+                    <label for="Name">Nombre:</label>
+                    <input class="combo-box" type="text" name="nombre" placeholder="Ej:Lucas">
+                    <br>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" name="Apellido" placeholder="Ej:Ramírez">
+                    <br>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" placeholder="Ej:quierounshow@hotmail.com">
+                    <br>
+                    <label for="Telefono">Teléfono:</label>
+                    <input type="text" name="Telefono" placeholder="Ej:1135468763">
+                    <br>
+                    <br>
+                    <div>
+                <p>Tipo de evento:</p>
+                    <select name="evento">
+                    <option value="BO">Boda</option>
+                    <option value="15a">15 años</option>
+                    <option value="BA">Bautismo</option>
+                    <option value="C">Cumpleaños</option>
+                    <option value="BART">Bat/Bart Mitzvah</option>
+                    <option value="A">Aniversario</option>
+                    <option value="O">Otro</option>
+                    </div>
+                    </select>   
+                    <br>
+                    <br>
+                <p>Tipo de show:</p>
+                    <select name="show">
+                    <option value="AE">Acróbatas aéreos</option>
+                    <option value="AP">Acróbatas de piso</option>
+                    <option value="B">Bailarines y bailarinas</option>
+                    <option value="BM">Bandas de música</option>
+                    <option value="MI">Magia e Ilusionismo</option>
+                    <option value="SF">Show de fuego</option>
+                    <option value="SH">Show de humor</option>
+                    <option value="SL">Show de luces</option>
+                    </select>  
+                    <br>
+                    <br>
+                <p>Tipo de público:</p>
+                    <input type="radio" name="publico" value="Infantil">
+                    <label for="infantil">Infantil</label>
+                    <input type="radio" name="publico" value="Familiar">
+                    <label for="familiar">Familiar</label>    
+                    <input type="radio" name="publico" value="Adulto">
+                    <label for="adulto">Adulto</label>
+                    <br><br>
+                    <label for="info">Deseo suscribirme al Newsletter para obtener descuentos y promociones</label>
+                    <input type="checkbox" name="Acepta" value="1">
+                    <br><br>
+                    <label for="InformacionExtra">Información Extra:</label>
+                    <br>
+                    <br>
+                    <textarea placeholder="Te dejamos este espacio si querés incluir más información..." cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar formulario">
+            </fieldset>
+        </form>
+        </div>
+    </section>
+  </div>
+
+    <section class="segunda-seccion">
+        <h2 class="subtitulo-contacto">También podés consultar nuestras fechas disponibles</h2>
+        <nav class="segunda-seccion__centrado">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=bXBvYmVnbmtta3BrbWswOGhsbmFobGlrZTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showPrint=0&amp;showTabs=0&amp;showDate=1&amp;showCalendars=0&amp;showTitle=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </nav>    
+        <br>
+        <br>
+    </section>
+
+    <!--  Pie de página  -->    
+    <footer>
+      <p>Todos los derechos reservados</p>
+      <p>Seguinos en nuestras redes sociales!</p>
+        <div class="redes-sociales">
+          <ul>
+            <li><i class="fab fa-twitter"></i>Twitter</li>
+            <li><i class="fab fa-instagram"></i>Instagram</li>
+            <li><i class="fab fa-facebook"></i>Facebook</li>                
+          </ul>
+        </div>
+        <div class="menu-footer">
+          <ul>
+            <li> <a href="../index.html">Home</a> </li>
+            <li> <a href="../Pages/nosotros.html">Nosotros</a> </li>
+            <li> <a href="../Pages/shows.html">Shows</a> </li>
+            <li> <a href="../Pages/contactoypresupuesto.html">Contacto y Presupuesto</a> </li>
+            <li> <a href="../Pages/quieroserparte.html">Quiero Ser Parte</a> </li>
+          </ul>
+        </div>
+    </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+</html>

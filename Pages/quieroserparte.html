@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="keywords" content="produccion, shows, eventos, entretenimiento, artistas, protagonistas"> 
+    <title>Contratación de artistas en productora</title>
+    <meta name="description" content="Die Stern es un productora dedicada a la realización de shows para animar todo tipo de eventos">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ad48722f8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!--  Inicio encabezado  -->
+    <header class="header-sitio">
+      <div class="container header-container">
+        <a href="../index.html"><img class="logo" src="../Images/logo.jpg" alt="logo"></a>
+        <a href="../index.html"><h1>Die Stern Producciones</h1></a>
+        <a href="#nav" class="menu-abrir"><i class="fas fa-bars"></i></a>
+        <nav id="nav">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../Pages/nosotros.html">Nosotros</a>
+            <a class="nav-link" href="../Pages/shows.html">Shows</a>
+            <a class= "nav-link" href="../Pages/contactoypresupuesto.html">Contacto y presupuesto</a>
+            <a class= "nav-link active" href="../Pages/quieroserparte.html">Quiero ser parte</a>
+            <a href="#" class="menu-cerrar"><i class="fas fa-times"></i></a>
+        </nav>
+      </div>
+  </header>
+
+
+    <section>
+    <!--  Inicio contenido principal  -->    
+        <h1 class="titulo-contacto">¿Te gustaría formar parte de nuestros shows?</h1>
+        <h2 class="subtitulo-contacto">Responde el siguiente formulario para estar en nuestra base de datos y que podamos tenerte en cuenta!</h2>
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-sine">
+        <form id="formulario-artistas" action="">
+            <fieldset>
+                <legend>Formulario para artistas</legend>
+                    <br>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre" placeholder="Ej:Ramiro">
+                    <br>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" name="Apellido" placeholder="Ej:Gonzalez">
+                    <br>
+                    <label for="NombreArtistico">Nombre artístico:</label>
+                    <input type="text" name="NombreArtistico" placeholder="Ej:Marcianita">
+                    <br>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" placeholder="Ej:quieroserparte@hotmail.com">
+                    <br>
+                    <label for="Telefono">Teléfono:</label>
+                    <input type="text" name="Telefono" placeholder="Ej:1135468763">
+                    <br>
+                    <br>
+                <p>Soy:</p>
+                    <select name="artista">
+                    <option value="C">Cantante</option>
+                    <option value="B">Bailarin/a</option>
+                    <option value="A">Acrobata</option>
+                    <option value="M">Mago/a</option>
+                    <option value="H">Humorista</option>
+                    <option value="O">Otro</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="oferta">Deseo enterarme si hay alguna oferta laboral</label>   
+                    <input type="checkbox" name="Acepta" value="1">
+                    <br>
+                    <br>
+                    <label for="InformacionExtra">Información Extra:</label>
+                    <br>
+                    <textarea placeholder="¿Tenés experiencia en eventos? Queremos saber más de vos..." cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar formulario">    
+            </fieldset>
+        </form>
+      </div>
+  </section>
+
+    <!--  Pie de página  -->    
+    <footer>
+      <p>Todos los derechos reservados</p>
+      <p>Seguinos en nuestras redes sociales!</p>
+        <div class="redes-sociales">
+          <ul>
+            <li><i class="fab fa-twitter"></i>Twitter</li>
+            <li><i class="fab fa-instagram"></i>Instagram</li>
+            <li><i class="fab fa-facebook"></i>Facebook</li>                
+          </ul>
+        </div>
+        <div class="menu-footer">
+          <ul>
+            <li> <a href="../index.html">Home</a> </li>
+            <li> <a href="../Pages/nosotros.html">Nosotros</a> </li>
+            <li> <a href="../Pages/shows.html">Shows</a> </li>
+            <li> <a href="../Pages/contactoypresupuesto.html">Contacto y Presupuesto</a> </li>
+            <li> <a href="../Pages/quieroserparte.html">Quiero Ser Parte</a> </li>
+          </ul>
+        </div>
+    </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+</html>

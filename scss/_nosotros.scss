@@ -1,0 +1,27 @@
+.titulo-nosotros {
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.texto-nosotros {
+    font-size: 2.5rem;
+}
+
+.container-nosotros {
+    text-align: center;
+    margin-top: 20px;
+    @include container;
+    .container-nosotros__imagen {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    }
+}
+    
+.container-nosotros__boton {
+    @include boton;
+    @include centrado;
+    margin-bottom: 5%;
+    margin-top: 30px;    
+}

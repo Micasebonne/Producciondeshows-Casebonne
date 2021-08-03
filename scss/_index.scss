@@ -1,0 +1,91 @@
+.imagen-carousel{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: center center;
+}
+
+.seccion-dos {
+    @include container; 
+    margin-top: 10%;
+    h2 {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 80%;
+    margin: 0 auto;
+    }
+}
+
+.seccion-dos__subtitulo {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 2fr 30% 2fr;
+    margin-top: 20px;
+    margin-bottom: 40px;  
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;  
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+    }
+    
+    .container-grid__img1 {
+    @include container;
+    padding: 5px;
+    border-radius: 5px;
+    justify-self: center;
+    }
+
+    .container-grid__img2 {
+    width: 70%;
+    justify-self: center;
+    }
+
+    .container-grid__img3 {
+    @include container;
+    padding: 5px;
+    justify-self: center;
+    }
+}
+
+.seccion-dos__boton {
+    @include boton;
+    @include centrado;
+}
+
+.seccion-tres {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+        p{
+        width: 30%;
+        margin: 0 auto;
+        font-size: 80px;
+        border-style: dotted;
+        border-width: 10px;
+        }
+    }
+}
+
+.seccion-tres__centrado {
+    @include centrado;
+}
+
+.seccion-cuatro {
+    margin-top: 80px;
+    margin-bottom: 40px;
+        h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
