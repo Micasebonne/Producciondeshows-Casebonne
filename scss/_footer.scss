@@ -1,8 +1,19 @@
-footer {
+.footer {
     background-color: $color-fondo-header;
-        p {
+}        
+
+.footer__derechos {
         text-align: center;
         margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+
+.footer__redes {
+    text-align: center;
+    font-size: 1.2rem;
+
+    @media (max-width: 480px) {
+        display: none;
     }
 }
 
@@ -11,6 +22,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     cursor: pointer;
+    font-size: 2.3rem;
         ul {
         display: flex;
         flex-direction: row nowrap;
@@ -29,6 +41,7 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    font-size: 1.3rem;
         ul {
         display: flex;
         flex-flow: row nowrap;
@@ -40,7 +53,6 @@ footer {
             justify-content: space-evenly;
             justify-items: center;
             margin-top: 15px;
-            margin-left: 60px;
             margin-right: 60px;
             text-decoration-line: overline 20px;
             margin-bottom: 20px;

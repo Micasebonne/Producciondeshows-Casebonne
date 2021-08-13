@@ -1,8 +1,17 @@
+.carousel {
+    .active {
+        border-bottom: none;
+    }
+}
+
 .imagen-carousel{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
     position: center center;
+    @media (max-width: 480px) {
+        height: 50vh;
+    }
 }
 
 .seccion-dos {
@@ -14,6 +23,11 @@
     margin-bottom: 20px;
     margin-top: 80%;
     margin: 0 auto;
+    @media (max-width: 480px) {
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
     }
 }
 

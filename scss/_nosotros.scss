@@ -1,21 +1,45 @@
 .titulo-nosotros {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .texto-nosotros {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .container-nosotros {
+    animation-duration: 5s;
+    animation-name: aparecer;
     text-align: center;
     margin-top: 20px;
     @include container;
     .container-nosotros__imagen {
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     margin-bottom: 40px;
+    margin-top: 40px;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0,2;
+    }
+    40% {
+        opacity: 0,4;
+    }
+    60% {
+        opacity: 0,6;
+    }
+    80% {
+        opacity: 0,8;
+    }
+    100% {
+        opacity: 1;
     }
 }
     

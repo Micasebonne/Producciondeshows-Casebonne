@@ -1,9 +1,11 @@
 .shows-texto {
     margin-top: 20px;
+    font-size: 2.3rem;
+    margin-bottom: 5px;
 }
 
 .shows-texto__subtitulo {
-    font-size: 2rem
+    font-size: 1.5rem
 }
 
 .navbar-shows {
@@ -12,7 +14,7 @@
     li {
         margin: 15px;
         list-style-type: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         
     @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
