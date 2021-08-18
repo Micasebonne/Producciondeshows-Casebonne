@@ -29,6 +29,7 @@
         list-style-type: none;
         font-size: 1.5rem;
         text-align: center;
+        /**
         @media (min-width: 320px) and (max-width: 400px) {
             margin: 22px;
         }
@@ -38,7 +39,7 @@
         @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
         margin: 7px;
         } 
-
+        **/
             a{
             text-decoration-style: wavy;
             &:hover {
@@ -73,6 +74,7 @@
     @media (max-width: 599px) {
         margin-bottom: 10%;
     }
+    /**
     @media (min-width: 600px) and (max-width: 900px) {
         display: flex;
         width: 80vw;
@@ -80,6 +82,7 @@
         margin: 0 auto;
         margin-bottom: 10%;
     }
+    **/
     }
     .texto-img-shows{
     @include container;

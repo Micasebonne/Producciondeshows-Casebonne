@@ -8026,16 +8026,18 @@ form {
   margin: 15px;
   list-style-type: none;
   font-size: 1.5rem;
-  text-align: center; }
-  @media (min-width: 320px) and (max-width: 400px) {
-    .navbar-shows li {
-      margin: 22px; } }
-  @media (min-width: 400px) and (max-width: 768px) {
-    .navbar-shows li {
-      margin: 13px; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
-    .navbar-shows li {
-      margin: 7px; } }
+  text-align: center;
+  /**
+        @media (min-width: 320px) and (max-width: 400px) {
+            margin: 22px;
+        }
+        @media (min-width: 400px) and (max-width: 768px) {
+        margin: 13px;
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+        margin: 7px;
+        } 
+        **/ }
   .navbar-shows li a {
     text-decoration-style: wavy; }
     .navbar-shows li a:hover {
@@ -8063,16 +8065,18 @@ form {
       margin-top: 10%;
       margin-bottom: 10%; } }
   .container-grid-shows .img-shows {
-    width: 100%; }
-    @media (max-width: 599px) {
-      .container-grid-shows .img-shows {
-        margin-bottom: 10%; } }
+    width: 100%;
+    /**
     @media (min-width: 600px) and (max-width: 900px) {
-      .container-grid-shows .img-shows {
         display: flex;
         width: 80vw;
         height: 80vh;
         margin: 0 auto;
+        margin-bottom: 10%;
+    }
+    **/ }
+    @media (max-width: 599px) {
+      .container-grid-shows .img-shows {
         margin-bottom: 10%; } }
   .container-grid-shows .texto-img-shows {
     width: 90%;
