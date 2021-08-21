@@ -1,57 +1,44 @@
 .titulo-contacto {
-    width: 80%;
-    margin: 0 auto;
+    @include container;
     margin-top: 30px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
-    @media (max-width: 400px) {
-        font-size: 2rem;
-    }
 }
 
 .subtitulo-contacto {
     width: 80%;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
-    @media (max-width: 400px) {
-        font-size: 1.5rem;
-    }
 }
 
 .segunda-seccion__centrado {
+    @include container;
     @include centrado;
 }
 
 .segunda-seccion {
-    @media (max-width: 400px) {
+    @media (max-width: 600px) {
     display: none
     }
 }
 
 form {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 20px;
-    border-style: dotted;
     padding: 20px;
-    border-radius: 40px;
     margin-bottom: 60px;
     @media (max-width: 400px) {
-        font-size: 1rem;
-        border-style: none;
+        font-size: 1.5rem;
     }
         label {
         margin-top: 20px;
         margin-bottom: 20px;
-        @media (max-width: 400px) {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
         }
             legend {
             color: white;
@@ -60,9 +47,6 @@ form {
             border: gold;
             border-radius: 20px;
             border-style: dotted;
-            @media (max-width: 400px) {
-                padding: 5px;
-            }
             }
                 fieldset {
                 background-color: #B28228;
@@ -70,7 +54,7 @@ form {
                 border-radius: 20px;
                 padding: 20px;
                 @media (max-width: 400px) {
-                    padding: 10px;
+                    padding: 15px;
                 }
                 }
                     input {

@@ -8,6 +8,7 @@ $color-enlaces: #ffe002;
 $color-fondo-header: rgb(31, 29, 29);
 $estilo-enlaces-activos: 3px solid #ffb606;
 
+// mixin
 @mixin centrado {
     display: flex;
     justify-content: center;
@@ -36,6 +37,7 @@ $estilo-enlaces-activos: 3px solid #ffb606;
     margin: 0 auto;
 }
 
+/*Estilos generales*/
 * {
     margin: 0;
     padding: 0;

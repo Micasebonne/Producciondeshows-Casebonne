@@ -93,6 +93,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     h2{
+    @include container;
     font-size: 3rem;
     margin-bottom: 5%;
     @media (max-width: 480px) {
@@ -116,7 +117,7 @@
     @include centrado;
     @include container;
     @media (max-width: 480px) {
-        margin-top: -20%;
+        margin-top: -10%;
     }
 }
 
