@@ -12,6 +12,9 @@
     @media (max-width: 480px) {
         height: 50vh;
     }
+    @media (min-width: 480px) and (max-width: 768px) {
+        height: 80vh;
+    }
 }
 
 .seccion-dos {
@@ -44,12 +47,13 @@
 }
 
 .container-grid {
+    width: 95%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 30% 2fr;
     margin-top: 20px;
     margin-bottom: 40px;  
-
-    @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    @media (min-device-width: 320px) and (max-device-width: 800px) {
     display: grid;
     justify-content: space-around;
     justify-items: center;  
