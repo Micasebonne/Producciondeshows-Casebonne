@@ -1,108 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--  Etiquetas meta  -->
     <meta charset="UTF-8">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Keywords  -->
     <meta name="keywords" content="produccion, shows, eventos, entretenimiento, artistas, protagonistas"> 
+    <!--  Título de la página  -->
     <title>Contratación de artistas en productora</title>
+    <!--  Descripción de la página  -->
     <meta name="description" content="Die Stern es un productora dedicada a la realización de shows para animar todo tipo de eventos">
+    <!--  Fuentes de la página  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <!--  Íconos  -->
     <script src="https://kit.fontawesome.com/7ad48722f8.js" crossorigin="anonymous"></script>
+    <!--  Animaciones  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  Página de estilos  -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
-    <!--  Inicio encabezado  -->
-    <header class="header-sitio">
-      <div class="container header-container">
-        <a href="../index.html"><img class="logo" src="../Images/logo.jpg" alt="logo"></a>
-        <a href="../index.html"><h1>Die Stern Producciones</h1></a>
-        <a href="#nav" class="menu-abrir"><i class="fas fa-bars"></i></a>
+  <!--  Inicio encabezado  -->
+  <header class="header-sitio">
+    <div class="container header-container">
+      <a href="../index.html"><img class="logo" src="../Images/logo.jpg" alt="logo"></a>
+      <a href="../index.html"><h1>Die Stern Producciones</h1></a>
+      <a href="#nav" class="menu-abrir"><i class="fas fa-bars"></i></a>
         <nav id="nav">
-            <a class="nav-link" href="../index.html">Home</a>
-            <a class="nav-link" href="../Pages/nosotros.html">Nosotros</a>
-            <a class="nav-link" href="../Pages/shows.html">Shows</a>
-            <a class= "nav-link" href="../Pages/contactoypresupuesto.html">Contacto y presupuesto</a>
-            <a class= "nav-link active" href="../Pages/quieroserparte.html">Quiero ser parte</a>
-            <a href="#" class="menu-cerrar"><i class="fas fa-times"></i></a>
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../Pages/nosotros.html">Nosotros</a>
+          <a class="nav-link" href="../Pages/shows.html">Shows</a>
+          <a class= "nav-link" href="../Pages/contactoypresupuesto.html">Contacto y presupuesto</a>
+          <a class= "nav-link active" href="../Pages/quieroserparte.html">Quiero ser parte</a>
+          <a href="#" class="menu-cerrar"><i class="fas fa-times"></i></a>
         </nav>
-      </div>
+    </div>
   </header>
+  <!--  Fin encabezado  -->
 
-
-    <section>
-    <!--  Inicio contenido principal  -->    
-        <h1 class="titulo-contacto">¿Te gustaría formar parte de nuestros shows?</h1>
-        <h2 class="subtitulo-contacto">Responde el siguiente formulario para estar en nuestra base de datos y que podamos tenerte en cuenta!</h2>
-
-        <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-sine">
+  <!--  Inicio contenido principal  -->
+  <section>    
+    <h1 class="titulo-contacto">¿Te gustaría formar parte de nuestros shows?</h1>
+    <h2 class="subtitulo-contacto">Respondé el siguiente formulario para estar en nuestra base de datos y que podamos tenerte en cuenta!</h2>
+    <!--  Inicio formulario  -->
+      <div data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-sine">
         <form id="formulario-artistas" action="">
-            <fieldset>
-                <legend>Formulario para artistas</legend>
-                    <label for="Nombre">Nombre:</label>
-                    <input type="text" name="Nombre" placeholder="Ej:Ramiro">
-                    <br>
-                    <label for="Apellido">Apellido:</label>
-                    <input type="text" name="Apellido" placeholder="Ej:Gonzalez">
-                    <br>
-                    <label for="mail">E - mail:</label>
-                    <input type="email" name="mail" placeholder="Ej:quieroserparte@hotmail.com">
-                    <br>
-                    <label for="Telefono">Teléfono:</label>
-                    <input type="text" name="Telefono" placeholder="Ej:1135468763">
-                    <br>
-                    <br>
-                <p>Soy:</p>
-                    <select name="artista">
-                    <option value="C">Cantante</option>
-                    <option value="B">Bailarin/a</option>
-                    <option value="A">Acrobata</option>
-                    <option value="M">Mago/a</option>
-                    <option value="H">Humorista</option>
-                    <option value="O">Otro</option>
-                    </select>
-                    <br>
-                    <br>
-                    <label for="InformacionExtra">Información Extra:</label>
-                    <br>
-                    <textarea placeholder="¿Tenés experiencia en eventos? Queremos saber más de vos..." cols="30" rows="10"></textarea>
-                    <br>
-                    <br>
-                    <input type="submit" value="Enviar formulario">
-                    <input type="reset" value="Limpiar formulario">    
-            </fieldset>
+          <fieldset>
+            <legend>Formulario para artistas</legend>
+              <label for="Nombre">Nombre:</label>
+              <input type="text" name="Nombre" placeholder="Ej:Ramiro">
+              <br>
+              <label for="Apellido">Apellido:</label>
+              <input type="text" name="Apellido" placeholder="Ej:Gonzalez">
+              <br>
+              <label for="mail">E - mail:</label>
+              <input type="email" name="mail" placeholder="Ej:quieroserparte@hotmail.com">
+              <br>
+              <label for="Telefono">Teléfono:</label>
+              <input type="text" name="Telefono" placeholder="Ej:1135468763">
+              <br>
+              <br>
+              <p>Soy:</p>
+                <select name="artista">
+                <option value="C">Cantante</option>
+                <option value="B">Bailarin/a</option>
+                <option value="A">Acrobata</option>
+                <option value="M">Mago/a</option>
+                <option value="H">Humorista</option>
+                <option value="O">Otro</option>
+                </select>
+                <br>
+                <br>
+                <label for="InformacionExtra">Información Extra:</label>
+                <br>
+                <textarea placeholder="¿Tenés experiencia en eventos? Queremos saber más de vos..." cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar formulario">    
+          </fieldset>
         </form>
+        <!--  Fin formulario  -->
       </div>
   </section>
+  <!--  Fin contenido principal  -->
+  
+  <!--  Pie de página  -->    
+  <footer class="footer">
+    <p class="footer__derechos"><i class="far fa-copyright"></i>2021 - Página creada por Micaela Casebonne</p>
+    <p class="footer__redes">Seguinos en nuestras redes sociales!</p>
+      <div class="redes-sociales">
+        <ul>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-facebook"></i></li>
+        </ul>
+      </div>
+      <div class="menu-footer">
+        <ul>
+          <li> <a href="../index.html">Home</a> </li>
+          <li> <a href="../Pages/nosotros.html">Nosotros</a> </li>
+          <li> <a href="../Pages/shows.html">Shows</a> </li>
+          <li> <a href="../Pages/contactoypresupuesto.html">Contacto y Presupuesto</a> </li>
+          <li> <a href="../Pages/quieroserparte.html">Quiero Ser Parte</a> </li>
+        </ul>
+      </div>
+  </footer>
+  <!--  Fin pie de página  -->
 
-    <!--  Pie de página  -->    
-    <footer class="footer">
-      <p class="footer__derechos"><i class="far fa-copyright"></i>2021 - Página creada por Micaela Casebonne</p>
-      <p class="footer__redes">Seguinos en nuestras redes sociales!</p>
-        <div class="redes-sociales">
-          <ul>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fab fa-facebook"></i></li>
-          </ul>
-        </div>
-        <div class="menu-footer">
-          <ul>
-            <li> <a href="../index.html">Home</a> </li>
-            <li> <a href="../Pages/nosotros.html">Nosotros</a> </li>
-            <li> <a href="../Pages/shows.html">Shows</a> </li>
-            <li> <a href="../Pages/contactoypresupuesto.html">Contacto y Presupuesto</a> </li>
-            <li> <a href="../Pages/quieroserparte.html">Quiero Ser Parte</a> </li>
-          </ul>
-        </div>
-    </footer>
-
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+  <!--  Scripts  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
 </body>
 </html>
